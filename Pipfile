@@ -6,8 +6,15 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "*"
+streamlit = "*"
+nltk = "*"
+txtai @ git+https://github.com/neuml/txtai@a7aed3cf46d2886d6c713b23a51d7adb13429b0e = "*"
+txtai[pipeline] = "*"
+Pillow = "*"
+beautifulsoup4 = "*"
+faiss-cpu = "*"
+lxml = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8.0"
 
