@@ -1,17 +1,7 @@
-%%capture
-!pip install streamlit==1.10.0
-%%capture
-import nltk==3.7
-nltk.download('punkt')
-%%capture
-!pip install git+https://github.com/neuml/txtai
-%%capture
-!pip install txtai[pipeline]
-%%capture
-!pip install Pillow==9.0.0
-%%capture
-!pip install beautifulsoup4==4.11.1
-%%capture
-!pip install bs4==0.0.1
-%%capture
-!pip install txtai @ git+https://github.com/neuml/txtai@a7aed3cf46d2886d6c713b23a51d7adb13429b0e
+streamlit==1.10.0
+nltk==3.7
+git+https://github.com/neuml/txtai
+Pillow
+beautifulsoup4
+faiss-cpu==1.7.2
+lxml
