@@ -8,8 +8,7 @@ verify_ssl = true
 [packages]
 streamlit = "*"
 nltk = "*"
-txtai @ git+https://github.com/neuml/txtai@a7aed3cf46d2886d6c713b23a51d7adb13429b0e
-txtai[pipeline]
+txtai = "*"
 Pillow = "*"
 beautifulsoup4 = "*"
 faiss-cpu = "*"
