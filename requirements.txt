@@ -1,7 +1,7 @@
 streamlit==1.10.0
 nltk==3.7
 txtai @ git+https://github.com/neuml/txtai@a7aed3cf46d2886d6c713b23a51d7adb13429b0e
-!pip install txtai[pipeline]
+pip install txtai[pipeline]
 Pillow==9.0.0
 beautifulsoup4==4.11.1
 bs4==0.0.1
