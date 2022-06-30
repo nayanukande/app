@@ -1,6 +1,6 @@
 streamlit==1.10.0
 nltk==3.7
-git+https://github.com/neuml/txtai
+git+https://github.com/neuml/txtai[pipeline]
 Pillow
 beautifulsoup4
 faiss-cpu==1.7.2
