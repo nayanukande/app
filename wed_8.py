@@ -22,8 +22,8 @@ Original file is located at
 # !pip install git+https://github.com/neuml/txtai
 
 # Commented out IPython magic to ensure Python compatibility.
-# %%capture
-# !pip install txtai[pipeline]
+%%capture
+!pip install txtai[pipeline]
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%capture
