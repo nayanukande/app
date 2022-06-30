@@ -1,3 +1,15 @@
+%%capture
+!pip install streamlit
+%%capture
+import nltk
+nltk.download('punkt')
+%%capture
+!pip install git+https://github.com/neuml/txtai
+%%capture
+!pip install txtai[pipeline]
+%%capture
+!pip install Pillow==9.0.0
+
 import streamlit as st
 from txtai.pipeline import Textractor
 from txtai.embeddings import Embeddings
@@ -9,7 +21,7 @@ import re
 # Create embeddings model, backed by sentence-transformers & transformers
 embeddings = Embeddings({"path": "sentence-transformers/nli-mpnet-base-v2"})
 
-url = "https://cdn.pixabay.com/photo/2022/02/25/09/23/background-7033808_1280.jpg"
+url = "https://cdn.pixabay.com/photo/2022/02/25/09/23/background-7033808_1280.jpg
 
 st.title("AIP-S³")
 st.write("AI Powered Smart Search System")
