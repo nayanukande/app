@@ -1,5 +1,3 @@
-!pip install txtai[pipeline]
-
 import streamlit as st
 from txtai.pipeline import Textractor
 from txtai.embeddings import Embeddings
