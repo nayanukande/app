@@ -9,7 +9,7 @@ import re
 # Create embeddings model, backed by sentence-transformers & transformers
 embeddings = Embeddings({"path": "sentence-transformers/nli-mpnet-base-v2"})
 
-url = "https://cdn.pixabay.com/photo/2022/02/25/09/23/background-7033808_1280.jpg
+url = "https://cdn.pixabay.com/photo/2022/02/25/09/23/background-7033808_1280.jpg"
 
 st.title("AIP-S³")
 st.write("AI Powered Smart Search System")
