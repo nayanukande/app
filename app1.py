@@ -1,15 +1,3 @@
-%%capture
-!pip install streamlit
-%%capture
-import nltk
-nltk.download('punkt')
-%%capture
-!pip install git+https://github.com/neuml/txtai
-%%capture
-!pip install txtai[pipeline]
-%%capture
-!pip install Pillow==9.0.0
-
 import streamlit as st
 from txtai.pipeline import Textractor
 from txtai.embeddings import Embeddings
