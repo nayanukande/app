@@ -1,7 +1,7 @@
 %%capture
-!pip install streamlit
+!pip install streamlit==1.10.0
 %%capture
-import nltk
+import nltk==3.7
 nltk.download('punkt')
 %%capture
 !pip install git+https://github.com/neuml/txtai
@@ -9,3 +9,8 @@ nltk.download('punkt')
 !pip install txtai[pipeline]
 %%capture
 !pip install Pillow==9.0.0
+%%capture
+!pip install beautifulsoup4==4.11.1
+%%capture
+!pip install bs4==0.0.1
+txtai @ git+https://github.com/neuml/txtai@a7aed3cf46d2886d6c713b23a51d7adb13429b0e
