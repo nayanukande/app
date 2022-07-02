@@ -14,16 +14,16 @@ Original file is located at
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%capture
-# import nltk
-# nltk.download('punkt')
+import nltk
+nltk.download('punkt')
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%capture
 # !pip install git+https://github.com/neuml/txtai
 
 # Commented out IPython magic to ensure Python compatibility.
-%%capture
-!pip install txtai[pipeline]
+#%%capture
+#!pip install txtai[pipeline]
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%capture
